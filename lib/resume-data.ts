@@ -109,3 +109,21 @@ export const navLinks = [
   { label: "Resume", href: "#resume" },
   { label: "Contact", href: "#contact" },
 ];
+
+export type MarqueeCompany = {
+  name: string;
+  tag?: "Current" | "Aspire";
+};
+
+export const marqueeCompanies: MarqueeCompany[] = [
+  { name: "G&M Oil Company", tag: "Current" },
+  { name: "Stripe", tag: "Aspire" },
+  { name: "Salesforce", tag: "Aspire" },
+  { name: "HubSpot", tag: "Aspire" },
+  { name: "Zendesk", tag: "Aspire" },
+  { name: "Intercom", tag: "Aspire" },
+  { name: "Notion", tag: "Aspire" },
+  { name: "Shopify", tag: "Aspire" },
+  { name: "Atlassian", tag: "Aspire" },
+  { name: "Monday.com", tag: "Aspire" },
+];
